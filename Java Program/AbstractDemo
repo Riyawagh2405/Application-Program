@@ -1,0 +1,70 @@
+
+class AbstractDemo 
+{
+    public static void main(String Arg[])
+    {
+        //RBI robj = new RBI();
+        RBI robj1 = new SBI();  //upcastimg 
+        RBI robj2 = new BOM();  //ucasting
+        
+        SBI sobj = new SBI();   //no casting
+        BOM bobj = new BOM();   //no casting
+
+        sobj.DisplayRules();
+        bobj.DisplayRules();
+
+        float fRet = 0.0f ;
+        fRet = sobj.CalculateROI();
+        System.out.println("ROI of SBI is : "+fRet);
+
+        fRet = bobj.CalculateROI();
+        System.out.println("ROI of BOM is : "+fRet);
+
+
+    }    
+}
+
+abstract class RBI
+{
+    public abstract float CalculateROI();
+    //virtual float CalculateROI()=0;
+    public void DisplayRules()
+    {
+        System.out.println("You have to submmit PAN card and Adhar card");
+        System.out.println("Minimum balance is 10000 "); 
+    }
+}
+
+class SBI extends RBI
+{
+    public float CalculateROI()
+    {
+        return 5.7f ;
+    }
+}
+
+class BOM extends RBI
+{
+    public float CalculateROI()
+    {
+        return 7.7f ;
+    }
+}
+
+
+
+
+
+/*
+ * 
+C:\Users\admin\Desktop\PPA\Java Programming>javac AbstractDemo.java
+
+C:\Users\admin\Desktop\PPA\Java Programming>java AbstractDemo.java
+You have to submmit PAN card and Adhar card
+Minimum balance is 10000
+You have to submmit PAN card and Adhar card
+Minimum balance is 10000
+ROI of SBI is : 5.7
+ROI of BOM is : 7.7
+
+ */
