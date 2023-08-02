@@ -80,12 +80,6 @@ C:\Users\admin>cd Desktop
 C:\Users\admin\Desktop>cd PPA
 
 C:\Users\admin\Desktop\PPA>cd C++ Programming
-The system cannot find the path specified.
-
-C:\Users\admin\Desktop\PPA>cd C++Programming
-
-C:\Users\admin\Desktop\PPA\C++Programming>g++ Constructor.cpp -o Myexe
-
 C:\Users\admin\Desktop\PPA\C++Programming>Myexe
 Inside main
 Inside default constructor
