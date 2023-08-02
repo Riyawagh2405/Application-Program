@@ -39,22 +39,3 @@ int main()
 
     return 0;
 }
-
-
-
-/*
-
-C:\Users\admin\Desktop\PPA\C++Programming>g++ Constcpp.cpp -o Myexe
-
-C:\Users\admin\Desktop\PPA\C++Programming>Myexe
-0
-0
-11
-21
-11
-21
-51
-101
-
-
-*/
