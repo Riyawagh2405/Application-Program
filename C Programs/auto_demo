@@ -12,21 +12,3 @@ int main ()
 
 	return 0;
 }
-
-
-
-
-/*
-
-C:\Users\admin>cd Desktop
-
-C:\Users\admin\Desktop>cd PPA
-
-C:\Users\admin\Desktop\PPA>cd C Programming
-
-C:\Users\admin\Desktop\PPA\C Programming>gcc auto_demo.c -o Myexe
-
-C:\Users\admin\Desktop\PPA\C Programming>Myexe
-
-
-*/
