@@ -21,16 +21,3 @@ int main()
     
     return 0;
 }
-
-
-
-/*
-
-C:\Users\admin\Desktop\PPA\C Programming>gcc dynamic1.c -o Myexe
-
-C:\Users\admin\Desktop\PPA\C Programming>Myexe
-Enter the size of array
-6
-
-
-*/
