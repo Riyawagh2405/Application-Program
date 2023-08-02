@@ -17,15 +17,3 @@ int main()
                         Myexe                   Windows
 
 */
-
-
-
-/*
-
-C:\Users\admin\Desktop\PPA\C Programming>gcc FirstApplication.c -o Myexe
-
-C:\Users\admin\Desktop\PPA\C Programming>Myexe
-Jay Ganesh...
-
-
-*/
