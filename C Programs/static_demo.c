@@ -16,18 +16,3 @@ int main()
 	
 	return 0;
 }
-
-
-
-
-/*
-
-C:\Users\admin\Desktop\PPA\C Programming>gcc static_demo.c -o Myexe
-
-C:\Users\admin\Desktop\PPA\C Programming>Myexe
-11
-12
-13
-
-
-*/
