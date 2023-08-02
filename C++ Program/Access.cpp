@@ -42,18 +42,3 @@ int main()
     dobj.Display();
 
 }
-
-
-
-/*
-
-C:\Users\admin\Desktop\PPA\C++Programming>g++ Access.cpp -o Myexe
-
-C:\Users\admin\Desktop\PPA\C++Programming>Myexe
-10
-4201067
-10
-30
-
-
-*/
