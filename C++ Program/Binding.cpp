@@ -25,18 +25,3 @@ int main()
 
     return 0;
 }
-
-
-
-
-/*
-
-C:\Users\admin\Desktop\PPA\C++Programming>g++ Binding.cpp -o Myexe
-
-C:\Users\admin\Desktop\PPA\C++Programming>Myexe
-1
-Inside Fun
-Inside Gun
-
-
-*/
