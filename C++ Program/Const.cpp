@@ -24,13 +24,3 @@ int main()
 */
     return 0;
 }
-
-
-/*
-
-C:\Users\admin\Desktop\PPA\C++Programming>g++ Const.cpp -o Myexe
-
-C:\Users\admin\Desktop\PPA\C++Programming>Myexe
-
-
-*/
