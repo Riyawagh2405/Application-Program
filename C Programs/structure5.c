@@ -24,13 +24,5 @@ int main()
     Arr[3].i = 41;
     Arr[3].f = 99.0;
 
-    
-
-
-
-
-
-
-
     return 0;
 }
