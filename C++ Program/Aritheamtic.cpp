@@ -52,19 +52,3 @@ int main()
     // cout<<"Value of No1 : "<<obj1.No1; Error
     return 0;
 }
-
-
-
-
-/*
-
-C:\Users\admin\Desktop\PPA\C++Programming>g++ Aritheamtic.cpp -o Myexe
-
-C:\Users\admin\Desktop\PPA\C++Programming>Myexe
-Addition is : 17
-Substraction is : 3
-Addition is : 0
-Substraction is : 0
-
-
-*/
